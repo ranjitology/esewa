@@ -1,7 +1,7 @@
 <?php
 // pay-with-esewa.php
 
-$esewa_merchant_id = "your_merchant_id";
+$esewa_merchant_id = "EPAYTEST";
 $amount = $_GET['amount'];
 $product_name = $_GET['product'];
 $return_url = "http://your-website.com/payment-success.php";
