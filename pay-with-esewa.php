@@ -4,8 +4,8 @@
 $esewa_merchant_id = "EPAYTEST";
 $amount = $_GET['amount'];
 $product_name = $_GET['product'];
-$return_url = "http://your-website.com/payment-success.php";
-$cancel_url = "http://your-website.com/payment-failed.php";
+$return_url = "https://ranjitology.github.io/esewa/payment-success.php";
+$cancel_url = "https://ranjitology.github.io/esewa/payment-failed.php";
 
 header("Location: https://esewa.com.np/epay/main?"
     . "amt=$amount"
